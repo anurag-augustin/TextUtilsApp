@@ -36,8 +36,8 @@ const toggleMode =() =>{
   return (
 
     <>
-    <About mode={mode}/>
-    {/* <BrowserRouter>
+    
+    <BrowserRouter>
 
 <Navbar btnText={btnText} mode={mode} toggleMode={toggleMode} title="T e x t   U t i l s" homeText="Home" aboutText="About"/>
 <div className="container my-3">
@@ -52,7 +52,7 @@ const toggleMode =() =>{
 
 </div>
 
-</BrowserRouter> */}
+</BrowserRouter>
     
     </>
   );
